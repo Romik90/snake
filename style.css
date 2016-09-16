@@ -3,3 +3,31 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body {
+	background-color: #eee;
+}
+.container {
+	max-width: 800px;
+	margin: 100px auto;
+}
+.main .line {
+    clear: both;
+}
+.main .line div {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 1px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color .5s;
+}
+.main .line div.s {
+    background-color: #bbb;
+    transition: background-color .5s;
+}
+.main .line div.f {
+    background-color: green;
+    transition: background-color 2s;
+}
