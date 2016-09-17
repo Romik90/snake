@@ -36,6 +36,6 @@ body {
     transition: background-color .5s;
 }
 .main .line div.f {
-    background-color: green;
+    background-color: red;
     transition: background-color 2s;
 }
