@@ -7,8 +7,16 @@ body {
 	background-color: #eee;
 }
 .container {
-	max-width: 800px;
-	margin: 100px auto;
+	max-width: 270px;
+	margin: 40px auto 0 auto;
+}
+#current_score {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.text-center {
+    text-align: center;
 }
 .main .line {
     clear: both;

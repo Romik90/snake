@@ -4,10 +4,11 @@
 	<title>Snake game</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-<h1>Snake</h1>
+<body onload="snake();"> 
+<h1 class="text-center">Snake</h1>
 <div class="container">
 <div id="main" class="main">
+<div id="current_score"></div>
 <div class='line'>
 	<div data-n='1' class="0_0 s"></div><div class="0_1"></div><div class="0_2"></div><div class="0_3"></div><div class="0_4"></div><div class="0_5"></div><div class="0_6"></div><div class="0_7"></div><div class="0_8"></div><div class="0_9"></div>
 </div>
@@ -40,7 +41,7 @@
 <div class="line">
 	<div class="9_0"></div><div class="9_1"></div><div class="9_2"></div><div class="9_3"></div><div class="9_4"></div><div class="9_5"></div><div class="9_6"></div><div class="9_7"></div><div class="9_8"></div><div class="9_9"></div>
 </div>
-
+<script src="basic.js"></script>
 </div>
 </div>
 </body>
